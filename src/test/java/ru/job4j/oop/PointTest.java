@@ -1,7 +1,7 @@
 package ru.job4j.oop;
 
 import org.junit.Test;
-import static org.hamcrest.core.Is.is;
+
 import static org.hamcrest.Matchers.closeTo;
 import static org.junit.Assert.*;
 

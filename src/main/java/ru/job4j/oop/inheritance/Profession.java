@@ -28,9 +28,4 @@ public class Profession {
     public String getBirthday() {
         return birthday;
     }
-
-    /*public static void main(String[] args) {
-        String text = "test";
-        Profession name = new Profession();
-    }*/
 }

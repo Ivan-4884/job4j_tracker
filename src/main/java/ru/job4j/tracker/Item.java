@@ -7,6 +7,15 @@ public class Item {
     private String name;
     private LocalDateTime created = LocalDateTime.now();
 
+    @Override
+    public String toString() {
+        return "Item{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", created=" + created +
+                '}';
+    }
+
     public Item() {
     }
 

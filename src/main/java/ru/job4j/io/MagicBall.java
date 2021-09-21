@@ -14,7 +14,8 @@ public class MagicBall {
             System.out.println("Yes");
         } else if (answer == 1) {
             System.out.println("No");
-        } else
+        } else {
             System.out.println("It could be");
+        }
     }
 }

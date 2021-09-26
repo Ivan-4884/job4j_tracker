@@ -11,7 +11,20 @@ public class Matches {
         while (count > 0) {
             String player = turn ? "Первый игрок" : "Второй игрок";
             System.out.println(player + " введите число от 1 до 3:");
-            int matches = Integer.parseInt(input.nextLine());
+            int matches = 0;
+            boolean run = true;
+            while (run) {
+                matches = Integer.parseInt(input.nextLine());
+                if ((matches <= 0) || (matches > 3)) {
+                    System.out.println("Введенное вами число не попадает в диапазон чисел от 1 до 3");
+                } else { if ((count - matches) <0) {
+                    System.out.println("Вы ввели число " + matches + ", а остаток спичек равен " + count);
+                    System.out.println("Введите число "+ count + " и будет Вам счастье =)");
+                    } else {
+                    run = false;
+                    }
+                }
+            }
             turn = !turn;
             count -= matches;
             System.out.println("Осталось: " + count + " спичек");

@@ -8,7 +8,6 @@ public class Doctor extends Profession {
         this.years = years;
     }
 
-
     public void scool() {
     }
 }

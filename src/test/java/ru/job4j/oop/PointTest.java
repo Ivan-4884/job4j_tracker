@@ -20,6 +20,6 @@ public class PointTest {
         Point a = new Point(0, 2, 4);
         Point b = new Point(0, 3, 5);
         double dist = a.distance3d(b);
-        assertThat(dist, closeTo(1.414,0.001));
+        assertThat(dist, closeTo(1.414, 0.001));
     }
 }

@@ -16,10 +16,12 @@ public class Matches {
             while (run) {
                 matches = Integer.parseInt(input.nextLine());
                 if ((matches <= 0) || (matches > 3)) {
-                    System.out.println("Введенное вами число не попадает в диапазон чисел от 1 до 3");
+                    System.out.println("Введенное вами число не попадает в диапазон чисел "
+                            + "от 1 до 3");
                 } else if ((count - matches) < 0) {
-                    System.out.println("Вы ввели число " + matches + ", а остаток спичек равен " + count);
-                    System.out.println("Введите число "+ count + " и будет Вам счастье =)");
+                    System.out.println("Вы ввели число " + matches + ", а остаток спичек "
+                            + "равен " + count);
+                    System.out.println("Введите число " + count + " и будет Вам счастье =)");
                 } else {
                     run = false;
                 }

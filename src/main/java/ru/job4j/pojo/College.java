@@ -11,10 +11,8 @@ public class College {
         oneStudent.setGroup("PM");
         oneStudent.setData(LocalDate.of(2020, 12, 12));
 
-        System.out.printf(
-                "Student: %s %s %s." + System.lineSeparator() +
-                        "Group is: %s." + System.lineSeparator() +
-                        "Date is: %s.",
+        System.out.printf("Student: %s %s %s." + System.lineSeparator()
+                        + "Group is: %s." + System.lineSeparator() + "Date is: %s.",
                 oneStudent.getName(),
                 oneStudent.getSurname(),
                 oneStudent.getPatronymic(),

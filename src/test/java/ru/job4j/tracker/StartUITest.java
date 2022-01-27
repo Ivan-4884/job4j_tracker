@@ -7,7 +7,7 @@ import static org.hamcrest.core.IsNull.nullValue;
 
 public class StartUITest {
 
-    @Test
+    /*@Test
     public void createItem() {
         String[] answers = {"Fix PC"};
         Input input = new StubInput(answers);
@@ -43,5 +43,5 @@ public class StartUITest {
         StartUI.deleteItem(new StubInput(answer), tracker);
         Item deleted = tracker.findById(item.getId());
         assertThat(deleted, is(nullValue()));
-    }
+    }*/
 }

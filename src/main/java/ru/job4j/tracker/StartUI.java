@@ -10,7 +10,6 @@ public class StartUI {
             UserAction action = actions[select];
             run = action.execute(input, tracker);
         }
-
     }
 
     private void showMenu(UserAction[] actions) {

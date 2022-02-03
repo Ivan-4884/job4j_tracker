@@ -1,6 +1,6 @@
 package ru.job4j.tracker;
 
-public class ShowAllItem implements UserAction {
+public class ShowAllItemAction implements UserAction {
     @Override
     public String name() {
         return "Show all items";

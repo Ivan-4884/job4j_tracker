@@ -80,7 +80,7 @@ public class StartUITest {
     }
 
     @Test
-    public void FindItemsByNameAction() {
+    public void findItemsByNameAction() {
         Output out = new StubOutput();
         Input in = new StubInput(
                 new String[]{"0", "item", "1"}
@@ -106,7 +106,7 @@ public class StartUITest {
     }
 
     @Test
-    public void FindItemsByIdAction() {
+    public void findItemsByIdAction() {
         Output out = new StubOutput();
         Input in = new StubInput(
                 new String[]{"0", "1", "1"}

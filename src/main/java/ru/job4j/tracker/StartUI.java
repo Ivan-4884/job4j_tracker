@@ -32,7 +32,7 @@ public class StartUI {
                 new CreateAction(output), new ShowAllItemAction(output),
                 new EditItemAction(output), new DeleteItemAction(output),
                 new FindItemByIdAction(output), new FindItemsByNameAction(output),
-                new ExitProgramAction(output)
+                new ExitProgramAction()
         };
         new StartUI(output).init(input, tracker, actions);
     }

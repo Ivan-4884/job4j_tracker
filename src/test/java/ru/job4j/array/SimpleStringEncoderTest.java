@@ -15,7 +15,7 @@ class SimpleStringEncoderTest {
     }
 
     @Test
-    void DoubleOne() {
+    void doubleOne() {
         String input = "aa";
         String expected = "a2";
         String result = SimpleStringEncoder.encode(input);

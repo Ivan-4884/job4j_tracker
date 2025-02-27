@@ -9,7 +9,7 @@
 
     <property name="fileExtensions" value="java, properties, xml"/>
 
-    <!-- Checks for Size Violations.                    -->
+    <!-- Checks for Size Violations.    my v.04.01.25.  -->
     <!-- See http://checkstyle.sf.net/config_sizes.html -->
     <module name="FileLength"/>
 

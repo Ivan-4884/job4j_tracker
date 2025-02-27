@@ -1,6 +1,7 @@
-package ru.job4j.tracker;
+package ru.job4j.tracker.action;
 
-import javax.print.attribute.standard.MediaSize;
+import ru.job4j.tracker.input.Input;
+import ru.job4j.tracker.Tracker;
 
 public class ExitProgramAction implements UserAction {
     @Override
